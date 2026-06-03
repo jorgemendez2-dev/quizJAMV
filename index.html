@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime Season 2011</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="season-tag">Temporada &bull; Otoño 2011</div>
+    <h1>Season <span>autumn</span>2011</h1>
+    <p class="subtitle">
+      <span id="count-badge"></span>
+    </p>
+  </header>
+
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>CARGANDO ANIMES...</p>
+  </div>
+
+  <div id="error-box"></div>
+
+  <div id="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Título en inglés</th>
+          <th>Sinopsis</th>
+          <th>Año</th>
+          <th>Imagen</th>
+          <th>Episodios</th>
+        </tr>
+      </thead>
+      <tbody id="anime-tbody"></tbody>
+    </table>
+  </div>  
+  <footer>
+    <a href="https://jikan.moe" target="_blank" rel="noopener"></a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
